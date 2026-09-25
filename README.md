@@ -128,4 +128,4 @@ Combining these types of information provides a more complete understanding of a
 The most interesting observation was that SOD1 showed broad expression across multiple neural and glial cell populations rather than being restricted to a single cell type. This was particularly interesting because the previous genome activity focused on a specific coding variant, p.Asp91Ala, demonstrating how genomic information about a disease-associated variant can be connected with the cellular expression pattern of the same gene.
 
 # References and Link
-- UCSC Cell Browser dataset: [HNOCA – Disease Atlas](https://cells.ucsc.edu/?ds=hnoca&gene=SOD1)  
+- UCSC Cell Browser dataset: [HNOCA – Disease Atlas]([https://cells.ucsc.edu/?ds=hnoca&gene=SOD1])  
