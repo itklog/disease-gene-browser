@@ -1,16 +1,15 @@
 # **UCSC Cell Browser Activty**
 
-# **Assigned Gene and Disease**
+# Assigned Gene and Disease
 **Gene:** SOD1 (Superoxide Dismutase 1)  
 **Associated Disease:** ALS (Amyotrophic Lateral Sclerosis)
 
-
-# **Organ/Tissue Choice and Dataset Information**
+# Organ/Tissue Choice and Dataset Information
 **Dataset:** Human Neural Organoid Cell Atlas (HNOCA) – Disease Atlas  
 **Cells:** ~409,277 single cells  
 **Relevance:** The dataset is relevant because it contains neural organoid-derived cells, allowing SOD1 expression to be examined across different neural and glial cell populations. However, because the dataset is based on organoid models rather than patient-derived brain or spinal-cord tissue, the observed expression patterns may not fully represent SOD1 expression in individuals with ALS.
 
-# **Understanding the Cell Map**
+# Understanding the Cell Map
 **Type of visualization:**  
 The visualization uses a UMAP (Uniform Manifold Approximation and Projection) layout, a dimensionality-reduction method used to represent high-dimensional single-cell transcriptomic data in a lower-dimensional space based on similarities in gene-expression profiles.
 
@@ -27,7 +26,7 @@ The clusters represent groups of cells with similar gene-expression signatures. 
 - Dorsal Telencephalic Neuron  
 - Non-telencephalic Neuron  
 
-# **Assigned Gene Expression**
+# Assigned Gene Expression
 **Assigned gene symbol:** SOD1 (Superoxide Dismutase 1)  
 **Dataset used:** Human Neural Organoid Cell Atlas (HNOCA) – Disease Atlas (~409,277 cells)  
 
@@ -41,7 +40,7 @@ Stronger SOD1 expression appears in the Astrocyte, Glioblast, and Choroid Plexus
 Little or no detectable SOD1 expression appears in the Microglia, Non-telencephalic NPC/Non-telencephalic Neuron, and Neural Crest (NC) Derivatives clusters, where many cells show low or undetected expression.
 
 
-# **Cell Types and Clusters**
+# Cell Types and Clusters
 **Cell type/cluster with the strongest visible expression:**  
 Astrocyte, with Glioblast and Choroid Plexus (CP) also showing relatively strong SOD1 expression, based on the higher concentration of dark-colored expression signals.
 
@@ -58,7 +57,7 @@ The expression pattern appears broad or widespread, with SOD1 detected across mu
 Based on the selected HNOCA Disease Atlas dataset, SOD1 shows broad expression across neural and glial cell populations, which is consistent with its role in cellular antioxidant defense through the detoxification of superoxide radicals. The relatively stronger expression observed in astrocytes may reflect differences in cellular metabolism and oxidative-stress management; however, this is an interpretation of the selected organoid dataset and does not by itself establish a cell-type-specific biological mechanism. Low or undetected expression in some clusters may also be influenced by technical dropout inherent to single-cell RNA sequencing rather than complete absence of SOD1 transcripts.
 
 
-# **Expression Plot**
+# Expression Plot
 **Which cells/cluster did you select?**  
 The selected cell group was the Dorsal Telencephalic Neuron cluster. The expression plot was then examined to compare SOD1 expression in this selected population with other cell groups in the dataset.
 
@@ -70,7 +69,7 @@ The dot plot provides two measurements: dot color represents mean expression, wh
 The expression plot provides a more direct comparison of expression level and the proportion of cells expressing SOD1 across cell types. While the UMAP shows the spatial distribution of individual cells and their relative expression, the dot plot summarizes each cluster using two measures: mean expression and the fraction of cells with detectable expression. This helps distinguish whether a cluster's signal reflects broad detection across many cells or relatively limited detection within the population.
 
 
-# **Marker Genes**
+# Marker Genes
 **Cluster/cell type examined:** Astrocyte  
 **Marker gene 1:** CLU  
 **Marker gene 2:** B2M  
@@ -80,7 +79,7 @@ The expression plot provides a more direct comparison of expression level and th
 No. SOD1 does not appear to behave as a cell-type-specific marker in this dataset because its expression is detected across multiple cell populations, including neuronal and glial clusters, rather than being uniquely associated with the Astrocyte cluster. Although SOD1 has an important biological role in antioxidant defense and cellular protection against oxidative stress, its broad expression pattern does not make it a specific marker for one cell type in this dataset.
 
 
-# **Disease Gene vs. Marker Gene**
+# Disease Gene vs. Marker Gene
 **Assigned disease gene:** SOD1  
 **Marker gene:** CLU  
 
@@ -94,7 +93,7 @@ SOD1 appears more broadly expressed, with detectable expression across multiple 
 This comparison shows that a disease-associated gene does not necessarily function as a cell-type marker. SOD1 is associated with disease because variants in the gene can contribute to SOD1-related ALS, but its broad expression means it is not specific to one cell type in this dataset. In contrast, CLU shows a more cell-type-associated expression pattern and can therefore help characterize the Astrocyte population. The comparison is based specifically on the expression patterns observed in the selected HNOCA Disease Atlas dataset.
 
 
-# **Connection to Genome Browser and ClinVar**
+# Connection to Genome Browser and ClinVar
 
 **On which chromosome is your assigned gene located?**  
 The SOD1 gene is located on chromosome 21. In the GRCh38/hg38 genome assembly, it is located at approximately chr21:31,659,693-31,668,931 on the positive strand.
@@ -112,7 +111,7 @@ Yes. The broad expression pattern is biologically plausible because SOD1 encodes
 No. A Cell Browser dataset primarily shows the distribution of gene expression among cell populations and cannot by itself establish disease causation. Demonstrating that a gene or variant causes disease requires additional genetic, clinical, functional, and experimental evidence. In this case, the Cell Browser provides information about where SOD1 is expressed, while the previous genome activity provides information about the gene's genomic location, structure, and the c.272A>C (p.Asp91Ala) variant.
 
 
-# **Reflection**
+# Reflection
 **What did the UCSC Cell Browser show you that the UCSC Genome Browser could not?**  
 The Cell Browser showed the distribution of SOD1 expression across different cell populations, allowing expression patterns to be examined at the cellular level. In contrast, the Genome Browser showed the gene's genomic location, exon-intron structure, transcript models, sequence conservation, and annotated variants. Therefore, the Cell Browser provided cellular expression context that was not apparent from the genomic view alone.
 
@@ -128,5 +127,5 @@ Combining these types of information provides a more complete understanding of a
 **What was the most interesting observation you made about your assigned gene?**  
 The most interesting observation was that SOD1 showed broad expression across multiple neural and glial cell populations rather than being restricted to a single cell type. This was particularly interesting because the previous genome activity focused on a specific coding variant, p.Asp91Ala, demonstrating how genomic information about a disease-associated variant can be connected with the cellular expression pattern of the same gene.
 
-# 11. References and Link
+# References and Link
 - UCSC Cell Browser dataset: [HNOCA – Disease Atlas](https://cells.ucsc.edu/?ds=hnoca&gene=SOD1)  
